@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		077D6DB4F3E19EA5BCAFC011 /* Pods_readAR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC90F7429A9C946B5F1AA1FC /* Pods_readAR.framework */; };
+		A837A56329804C8E0060526A /* SF-Pro-Display-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = A837A55A29804C8E0060526A /* SF-Pro-Display-Semibold.otf */; };
+		A837A56529804C8E0060526A /* SF-Pro-Display-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = A837A55C29804C8E0060526A /* SF-Pro-Display-Light.otf */; };
+		A837A56829804C8E0060526A /* SF-Pro-Display-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = A837A55F29804C8E0060526A /* SF-Pro-Display-Heavy.otf */; };
+		A837A56C29810FFA0060526A /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A837A56B29810FFA0060526A /* InfoViewController.swift */; };
+		A8529484297FC7AE00F769BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8529483297FC7AE00F769BB /* AppDelegate.swift */; };
+		A8529486297FC7AE00F769BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8529485297FC7AE00F769BB /* SceneDelegate.swift */; };
+		A8529488297FC7AE00F769BB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8529487297FC7AE00F769BB /* HomeViewController.swift */; };
+		A852948D297FC7AF00F769BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A852948C297FC7AF00F769BB /* Assets.xcassets */; };
+		A8529498297FCC8C00F769BB /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8529497297FCC8C00F769BB /* ARViewController.swift */; };
+		A85294DA2980192000F769BB /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = A85294D92980191F00F769BB /* art.scnassets */; };
+		A8529503298020BA00F769BB /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8529502298020BA00F769BB /* CustomFont.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0EC18C944C65AB7EA106BB25 /* Pods-readAR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-readAR.release.xcconfig"; path = "Target Support Files/Pods-readAR/Pods-readAR.release.xcconfig"; sourceTree = "<group>"; };
+		A837A55A29804C8E0060526A /* SF-Pro-Display-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Semibold.otf"; sourceTree = "<group>"; };
+		A837A55C29804C8E0060526A /* SF-Pro-Display-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Light.otf"; sourceTree = "<group>"; };
+		A837A55F29804C8E0060526A /* SF-Pro-Display-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Heavy.otf"; sourceTree = "<group>"; };
+		A837A56B29810FFA0060526A /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		A8529480297FC7AE00F769BB /* readAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = readAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8529483297FC7AE00F769BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A8529485297FC7AE00F769BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A8529487297FC7AE00F769BB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A852948C297FC7AF00F769BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8529491297FC7AF00F769BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8529497297FCC8C00F769BB /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		A85294D92980191F00F769BB /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		A8529502298020BA00F769BB /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
+		E85EF52ADADD117875F21A59 /* Pods-readAR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-readAR.debug.xcconfig"; path = "Target Support Files/Pods-readAR/Pods-readAR.debug.xcconfig"; sourceTree = "<group>"; };
+		FC90F7429A9C946B5F1AA1FC /* Pods_readAR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_readAR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A852947D297FC7AE00F769BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077D6DB4F3E19EA5BCAFC011 /* Pods_readAR.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9CB7DAE3CDA2E86B73392C51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC90F7429A9C946B5F1AA1FC /* Pods_readAR.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A04C84EA2AA72BEEC11B3F71 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E85EF52ADADD117875F21A59 /* Pods-readAR.debug.xcconfig */,
+				0EC18C944C65AB7EA106BB25 /* Pods-readAR.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A837A55829804C700060526A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A837A55F29804C8E0060526A /* SF-Pro-Display-Heavy.otf */,
+				A837A55C29804C8E0060526A /* SF-Pro-Display-Light.otf */,
+				A837A55A29804C8E0060526A /* SF-Pro-Display-Semibold.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		A8529477297FC7AE00F769BB = {
+			isa = PBXGroup;
+			children = (
+				A8529482297FC7AE00F769BB /* readAR */,
+				A8529481297FC7AE00F769BB /* Products */,
+				A04C84EA2AA72BEEC11B3F71 /* Pods */,
+				9CB7DAE3CDA2E86B73392C51 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A8529481297FC7AE00F769BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8529480297FC7AE00F769BB /* readAR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8529482297FC7AE00F769BB /* readAR */ = {
+			isa = PBXGroup;
+			children = (
+				A8529483297FC7AE00F769BB /* AppDelegate.swift */,
+				A8529485297FC7AE00F769BB /* SceneDelegate.swift */,
+				A8529487297FC7AE00F769BB /* HomeViewController.swift */,
+				A837A56B29810FFA0060526A /* InfoViewController.swift */,
+				A8529497297FCC8C00F769BB /* ARViewController.swift */,
+				A85294DB29801D4700F769BB /* Themes */,
+				A85295012980208400F769BB /* Assets */,
+				A8529491297FC7AF00F769BB /* Info.plist */,
+			);
+			path = readAR;
+			sourceTree = "<group>";
+		};
+		A85294DB29801D4700F769BB /* Themes */ = {
+			isa = PBXGroup;
+			children = (
+				A8529502298020BA00F769BB /* CustomFont.swift */,
+			);
+			path = Themes;
+			sourceTree = "<group>";
+		};
+		A85295012980208400F769BB /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				A852948C297FC7AF00F769BB /* Assets.xcassets */,
+				A837A55829804C700060526A /* Fonts */,
+				A85294D92980191F00F769BB /* art.scnassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A852947F297FC7AE00F769BB /* readAR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8529494297FC7AF00F769BB /* Build configuration list for PBXNativeTarget "readAR" */;
+			buildPhases = (
+				BF30ECA9A42F978532A5BE95 /* [CP] Check Pods Manifest.lock */,
+				A852947C297FC7AE00F769BB /* Sources */,
+				A852947D297FC7AE00F769BB /* Frameworks */,
+				A852947E297FC7AE00F769BB /* Resources */,
+				8779979A21691A5DC8E6635C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = readAR;
+			productName = readAR;
+			productReference = A8529480297FC7AE00F769BB /* readAR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8529478297FC7AE00F769BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					A852947F297FC7AE00F769BB = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = A852947B297FC7AE00F769BB /* Build configuration list for PBXProject "readAR" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8529477297FC7AE00F769BB;
+			productRefGroup = A8529481297FC7AE00F769BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A852947F297FC7AE00F769BB /* readAR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A852947E297FC7AE00F769BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A837A56529804C8E0060526A /* SF-Pro-Display-Light.otf in Resources */,
+				A837A56829804C8E0060526A /* SF-Pro-Display-Heavy.otf in Resources */,
+				A85294DA2980192000F769BB /* art.scnassets in Resources */,
+				A837A56329804C8E0060526A /* SF-Pro-Display-Semibold.otf in Resources */,
+				A852948D297FC7AF00F769BB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8779979A21691A5DC8E6635C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-readAR/Pods-readAR-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-readAR/Pods-readAR-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-readAR/Pods-readAR-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF30ECA9A42F978532A5BE95 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-readAR-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A852947C297FC7AE00F769BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8529503298020BA00F769BB /* CustomFont.swift in Sources */,
+				A8529488297FC7AE00F769BB /* HomeViewController.swift in Sources */,
+				A8529498297FCC8C00F769BB /* ARViewController.swift in Sources */,
+				A8529484297FC7AE00F769BB /* AppDelegate.swift in Sources */,
+				A837A56C29810FFA0060526A /* InfoViewController.swift in Sources */,
+				A8529486297FC7AE00F769BB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A8529492297FC7AF00F769BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A8529493297FC7AF00F769BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8529495297FC7AF00F769BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E85EF52ADADD117875F21A59 /* Pods-readAR.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NRD8HSMRZ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = readAR/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Mohon izin dalam mengakses kamera untuk menghadirkan pengalaman AR";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Zidan-Ramadhan.readAR";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A8529496297FC7AF00F769BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EC18C944C65AB7EA106BB25 /* Pods-readAR.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NRD8HSMRZ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = readAR/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Mohon izin dalam mengakses kamera untuk menghadirkan pengalaman AR";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Zidan-Ramadhan.readAR";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A852947B297FC7AE00F769BB /* Build configuration list for PBXProject "readAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8529492297FC7AF00F769BB /* Debug */,
+				A8529493297FC7AF00F769BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8529494297FC7AF00F769BB /* Build configuration list for PBXNativeTarget "readAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8529495297FC7AF00F769BB /* Debug */,
+				A8529496297FC7AF00F769BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8529478297FC7AE00F769BB /* Project object */;
+}

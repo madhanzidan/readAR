@@ -1,0 +1,6 @@
+framework module Pods_readAR {
+  umbrella header "Pods-readAR-umbrella.h"
+
+  export *
+  module * { export * }
+}
