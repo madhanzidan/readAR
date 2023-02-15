@@ -51,13 +51,16 @@ class HomeViewController: UIViewController {
         view.backgroundColor = UIColor(named: "Cream")
         title = ""
         navigationController?.navigationBar.prefersLargeTitles = true
+        navigationController?.navigationBar.tintColor = UIColor(named: "Cream")
         setupViews()
     }
-    
     
     @objc func startPressed() {
         let nextScreen = ARViewController()
         navigationController?.pushViewController(nextScreen, animated: true)
+        let backButton = UIBarButtonItem()
+        backButton.title = "Kembali"
+        navigationItem.backBarButtonItem = backButton
     }
     @objc func infoPressed() {
         let navigationVC = UINavigationController(rootViewController: InfoViewController())
@@ -73,8 +76,7 @@ class HomeViewController: UIViewController {
         //Constraints
         headerView.snp.makeConstraints { make in
             make.top.equalTo(0)
-            make.left.equalTo(0)
-            make.right.equalTo(0)
+            make.left.right.equalTo(0)
             make.height.equalTo(172)
         }
         welcomeLabel.snp.makeConstraints { make in

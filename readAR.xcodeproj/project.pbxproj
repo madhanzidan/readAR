@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		077D6DB4F3E19EA5BCAFC011 /* Pods_readAR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC90F7429A9C946B5F1AA1FC /* Pods_readAR.framework */; };
+		A81B45E7298D121300BB17A9 /* missUniverse.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A81B45E6298D121300BB17A9 /* missUniverse.mp4 */; };
 		A837A56329804C8E0060526A /* SF-Pro-Display-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = A837A55A29804C8E0060526A /* SF-Pro-Display-Semibold.otf */; };
 		A837A56529804C8E0060526A /* SF-Pro-Display-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = A837A55C29804C8E0060526A /* SF-Pro-Display-Light.otf */; };
 		A837A56829804C8E0060526A /* SF-Pro-Display-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = A837A55F29804C8E0060526A /* SF-Pro-Display-Heavy.otf */; };
@@ -19,10 +20,13 @@
 		A8529498297FCC8C00F769BB /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8529497297FCC8C00F769BB /* ARViewController.swift */; };
 		A85294DA2980192000F769BB /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = A85294D92980191F00F769BB /* art.scnassets */; };
 		A8529503298020BA00F769BB /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8529502298020BA00F769BB /* CustomFont.swift */; };
+		A895EA4129891666006AFA6C /* CustomCornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = A895EA4029891666006AFA6C /* CustomCornerRadius.swift */; };
+		A895EA44298B90DF006AFA6C /* erickThohir.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A895EA43298B90DF006AFA6C /* erickThohir.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0EC18C944C65AB7EA106BB25 /* Pods-readAR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-readAR.release.xcconfig"; path = "Target Support Files/Pods-readAR/Pods-readAR.release.xcconfig"; sourceTree = "<group>"; };
+		A81B45E6298D121300BB17A9 /* missUniverse.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = missUniverse.mp4; sourceTree = "<group>"; };
 		A837A55A29804C8E0060526A /* SF-Pro-Display-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Semibold.otf"; sourceTree = "<group>"; };
 		A837A55C29804C8E0060526A /* SF-Pro-Display-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Light.otf"; sourceTree = "<group>"; };
 		A837A55F29804C8E0060526A /* SF-Pro-Display-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Heavy.otf"; sourceTree = "<group>"; };
@@ -36,6 +40,8 @@
 		A8529497297FCC8C00F769BB /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
 		A85294D92980191F00F769BB /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		A8529502298020BA00F769BB /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
+		A895EA4029891666006AFA6C /* CustomCornerRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCornerRadius.swift; sourceTree = "<group>"; };
+		A895EA43298B90DF006AFA6C /* erickThohir.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = erickThohir.mp4; sourceTree = "<group>"; };
 		E85EF52ADADD117875F21A59 /* Pods-readAR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-readAR.debug.xcconfig"; path = "Target Support Files/Pods-readAR/Pods-readAR.debug.xcconfig"; sourceTree = "<group>"; };
 		FC90F7429A9C946B5F1AA1FC /* Pods_readAR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_readAR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -106,6 +112,7 @@
 				A837A56B29810FFA0060526A /* InfoViewController.swift */,
 				A8529497297FCC8C00F769BB /* ARViewController.swift */,
 				A85294DB29801D4700F769BB /* Themes */,
+				A85294D92980191F00F769BB /* art.scnassets */,
 				A85295012980208400F769BB /* Assets */,
 				A8529491297FC7AF00F769BB /* Info.plist */,
 			);
@@ -116,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				A8529502298020BA00F769BB /* CustomFont.swift */,
+				A895EA4029891666006AFA6C /* CustomCornerRadius.swift */,
 			);
 			path = Themes;
 			sourceTree = "<group>";
@@ -123,11 +131,20 @@
 		A85295012980208400F769BB /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				A852948C297FC7AF00F769BB /* Assets.xcassets */,
 				A837A55829804C700060526A /* Fonts */,
-				A85294D92980191F00F769BB /* art.scnassets */,
+				A895EA42298B90CF006AFA6C /* Video */,
+				A852948C297FC7AF00F769BB /* Assets.xcassets */,
 			);
 			path = Assets;
+			sourceTree = "<group>";
+		};
+		A895EA42298B90CF006AFA6C /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				A895EA43298B90DF006AFA6C /* erickThohir.mp4 */,
+				A81B45E6298D121300BB17A9 /* missUniverse.mp4 */,
+			);
+			path = Video;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,7 +185,7 @@
 				};
 			};
 			buildConfigurationList = A852947B297FC7AE00F769BB /* Build configuration list for PBXProject "readAR" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -192,9 +209,11 @@
 			files = (
 				A837A56529804C8E0060526A /* SF-Pro-Display-Light.otf in Resources */,
 				A837A56829804C8E0060526A /* SF-Pro-Display-Heavy.otf in Resources */,
+				A895EA44298B90DF006AFA6C /* erickThohir.mp4 in Resources */,
 				A85294DA2980192000F769BB /* art.scnassets in Resources */,
 				A837A56329804C8E0060526A /* SF-Pro-Display-Semibold.otf in Resources */,
 				A852948D297FC7AF00F769BB /* Assets.xcassets in Resources */,
+				A81B45E7298D121300BB17A9 /* missUniverse.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +271,7 @@
 				A8529498297FCC8C00F769BB /* ARViewController.swift in Sources */,
 				A8529484297FC7AE00F769BB /* AppDelegate.swift in Sources */,
 				A837A56C29810FFA0060526A /* InfoViewController.swift in Sources */,
+				A895EA4129891666006AFA6C /* CustomCornerRadius.swift in Sources */,
 				A8529486297FC7AE00F769BB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -384,11 +404,15 @@
 				DEVELOPMENT_TEAM = NRD8HSMRZ7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = readAR/Info.plist;
-				INFOPLIST_KEY_NSCameraUsageDescription = "Mohon izin dalam mengakses kamera untuk menghadirkan pengalaman AR";
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -413,11 +437,15 @@
 				DEVELOPMENT_TEAM = NRD8HSMRZ7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = readAR/Info.plist;
-				INFOPLIST_KEY_NSCameraUsageDescription = "Mohon izin dalam mengakses kamera untuk menghadirkan pengalaman AR";
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
