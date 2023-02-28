@@ -13,6 +13,7 @@
 		A837A56529804C8E0060526A /* SF-Pro-Display-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = A837A55C29804C8E0060526A /* SF-Pro-Display-Light.otf */; };
 		A837A56829804C8E0060526A /* SF-Pro-Display-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = A837A55F29804C8E0060526A /* SF-Pro-Display-Heavy.otf */; };
 		A837A56C29810FFA0060526A /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A837A56B29810FFA0060526A /* InfoViewController.swift */; };
+		A845DE9B299D3D21008B9E4D /* brv.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A845DE9A299D3D21008B9E4D /* brv.mp4 */; };
 		A8529484297FC7AE00F769BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8529483297FC7AE00F769BB /* AppDelegate.swift */; };
 		A8529486297FC7AE00F769BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8529485297FC7AE00F769BB /* SceneDelegate.swift */; };
 		A8529488297FC7AE00F769BB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8529487297FC7AE00F769BB /* HomeViewController.swift */; };
@@ -22,6 +23,10 @@
 		A8529503298020BA00F769BB /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8529502298020BA00F769BB /* CustomFont.swift */; };
 		A895EA4129891666006AFA6C /* CustomCornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = A895EA4029891666006AFA6C /* CustomCornerRadius.swift */; };
 		A895EA44298B90DF006AFA6C /* erickThohir.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A895EA43298B90DF006AFA6C /* erickThohir.mp4 */; };
+		A8A9429E29ACD8AC0052F258 /* Beau Walker & Jurgance - Shine [FTUM Release].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A8A9429D29ACD8AC0052F258 /* Beau Walker & Jurgance - Shine [FTUM Release].mp3 */; };
+		A8A942A029ACD9D80052F258 /* Polygon-Bring-It-Back-_NCS-Release_.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A8A9429F29ACD9D80052F258 /* Polygon-Bring-It-Back-_NCS-Release_.mp3 */; };
+		A8A942A229ACDA380052F258 /* ATSMXN_-XTOM-Enemies-_NCS-Release_.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A8A942A129ACDA380052F258 /* ATSMXN_-XTOM-Enemies-_NCS-Release_.mp3 */; };
+		A8A942A529ACDAEB0052F258 /* AudioSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A942A429ACDAEB0052F258 /* AudioSingleton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +36,7 @@
 		A837A55C29804C8E0060526A /* SF-Pro-Display-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Light.otf"; sourceTree = "<group>"; };
 		A837A55F29804C8E0060526A /* SF-Pro-Display-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Heavy.otf"; sourceTree = "<group>"; };
 		A837A56B29810FFA0060526A /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		A845DE9A299D3D21008B9E4D /* brv.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = brv.mp4; sourceTree = "<group>"; };
 		A8529480297FC7AE00F769BB /* readAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = readAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8529483297FC7AE00F769BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8529485297FC7AE00F769BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +48,10 @@
 		A8529502298020BA00F769BB /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
 		A895EA4029891666006AFA6C /* CustomCornerRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCornerRadius.swift; sourceTree = "<group>"; };
 		A895EA43298B90DF006AFA6C /* erickThohir.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = erickThohir.mp4; sourceTree = "<group>"; };
+		A8A9429D29ACD8AC0052F258 /* Beau Walker & Jurgance - Shine [FTUM Release].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Beau Walker & Jurgance - Shine [FTUM Release].mp3"; sourceTree = "<group>"; };
+		A8A9429F29ACD9D80052F258 /* Polygon-Bring-It-Back-_NCS-Release_.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Polygon-Bring-It-Back-_NCS-Release_.mp3"; sourceTree = "<group>"; };
+		A8A942A129ACDA380052F258 /* ATSMXN_-XTOM-Enemies-_NCS-Release_.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ATSMXN_-XTOM-Enemies-_NCS-Release_.mp3"; sourceTree = "<group>"; };
+		A8A942A429ACDAEB0052F258 /* AudioSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioSingleton.swift; sourceTree = "<group>"; };
 		E85EF52ADADD117875F21A59 /* Pods-readAR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-readAR.debug.xcconfig"; path = "Target Support Files/Pods-readAR/Pods-readAR.debug.xcconfig"; sourceTree = "<group>"; };
 		FC90F7429A9C946B5F1AA1FC /* Pods_readAR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_readAR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -111,9 +121,10 @@
 				A8529487297FC7AE00F769BB /* HomeViewController.swift */,
 				A837A56B29810FFA0060526A /* InfoViewController.swift */,
 				A8529497297FCC8C00F769BB /* ARViewController.swift */,
+				A8A942A329ACDA9B0052F258 /* Helper */,
 				A85294DB29801D4700F769BB /* Themes */,
-				A85294D92980191F00F769BB /* art.scnassets */,
 				A85295012980208400F769BB /* Assets */,
+				A85294D92980191F00F769BB /* art.scnassets */,
 				A8529491297FC7AF00F769BB /* Info.plist */,
 			);
 			path = readAR;
@@ -132,19 +143,39 @@
 			isa = PBXGroup;
 			children = (
 				A837A55829804C700060526A /* Fonts */,
-				A895EA42298B90CF006AFA6C /* Video */,
+				A8A9429C29ACD7D00052F258 /* Audios */,
+				A895EA42298B90CF006AFA6C /* Videos */,
 				A852948C297FC7AF00F769BB /* Assets.xcassets */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
 		};
-		A895EA42298B90CF006AFA6C /* Video */ = {
+		A895EA42298B90CF006AFA6C /* Videos */ = {
 			isa = PBXGroup;
 			children = (
 				A895EA43298B90DF006AFA6C /* erickThohir.mp4 */,
 				A81B45E6298D121300BB17A9 /* missUniverse.mp4 */,
+				A845DE9A299D3D21008B9E4D /* brv.mp4 */,
 			);
-			path = Video;
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		A8A9429C29ACD7D00052F258 /* Audios */ = {
+			isa = PBXGroup;
+			children = (
+				A8A9429D29ACD8AC0052F258 /* Beau Walker & Jurgance - Shine [FTUM Release].mp3 */,
+				A8A9429F29ACD9D80052F258 /* Polygon-Bring-It-Back-_NCS-Release_.mp3 */,
+				A8A942A129ACDA380052F258 /* ATSMXN_-XTOM-Enemies-_NCS-Release_.mp3 */,
+			);
+			path = Audios;
+			sourceTree = "<group>";
+		};
+		A8A942A329ACDA9B0052F258 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				A8A942A429ACDAEB0052F258 /* AudioSingleton.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,11 +239,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				A837A56529804C8E0060526A /* SF-Pro-Display-Light.otf in Resources */,
+				A8A942A029ACD9D80052F258 /* Polygon-Bring-It-Back-_NCS-Release_.mp3 in Resources */,
 				A837A56829804C8E0060526A /* SF-Pro-Display-Heavy.otf in Resources */,
 				A895EA44298B90DF006AFA6C /* erickThohir.mp4 in Resources */,
+				A8A942A229ACDA380052F258 /* ATSMXN_-XTOM-Enemies-_NCS-Release_.mp3 in Resources */,
 				A85294DA2980192000F769BB /* art.scnassets in Resources */,
+				A845DE9B299D3D21008B9E4D /* brv.mp4 in Resources */,
 				A837A56329804C8E0060526A /* SF-Pro-Display-Semibold.otf in Resources */,
 				A852948D297FC7AF00F769BB /* Assets.xcassets in Resources */,
+				A8A9429E29ACD8AC0052F258 /* Beau Walker & Jurgance - Shine [FTUM Release].mp3 in Resources */,
 				A81B45E7298D121300BB17A9 /* missUniverse.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +305,7 @@
 				A8529488297FC7AE00F769BB /* HomeViewController.swift in Sources */,
 				A8529498297FCC8C00F769BB /* ARViewController.swift in Sources */,
 				A8529484297FC7AE00F769BB /* AppDelegate.swift in Sources */,
+				A8A942A529ACDAEB0052F258 /* AudioSingleton.swift in Sources */,
 				A837A56C29810FFA0060526A /* InfoViewController.swift in Sources */,
 				A895EA4129891666006AFA6C /* CustomCornerRadius.swift in Sources */,
 				A8529486297FC7AE00F769BB /* SceneDelegate.swift in Sources */,

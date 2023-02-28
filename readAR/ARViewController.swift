@@ -57,6 +57,7 @@ class ARViewController: UIViewController, ARSCNViewDelegate {
     var currentMode: InteractionMode = .object3D
     var videoNode = SKVideoNode(fileNamed: "")
     
+    
     @objc func segmentedAction(_ segmentedControl: UISegmentedControl) {
         currentMode = InteractionMode(rawValue: segmentedControl.selectedSegmentIndex)!
         sceneView.setNeedsDisplay()
@@ -64,57 +65,93 @@ class ARViewController: UIViewController, ARSCNViewDelegate {
     
     func renderer(_ renderer: SCNSceneRenderer, nodeFor anchor: ARAnchor) -> SCNNode? {
         let node = SCNNode()
-
+        
         if let imageAnchor = anchor as? ARImageAnchor {
             let plane = SCNPlane(width: imageAnchor.referenceImage.physicalSize.width, height: imageAnchor.referenceImage.physicalSize.height)
             let planeNode = SCNNode(geometry: plane)
             planeNode.eulerAngles.x = -.pi / 2
+            node.addChildNode(planeNode)
             
             switch currentMode {
             case .object3D:
+                videoNode.pause()
                 plane.firstMaterial?.diffuse.contents = UIColor(white: 1.0, alpha: 0.5)
                 node.addChildNode(planeNode)
                 
                 if imageAnchor.referenceImage.name == "News1" {
                     if let newsScene = SCNScene(named: "art.scnassets/oddish.scn") {
                         if let newsNode = newsScene.rootNode.childNodes.first {
+                            videoNode.pause()
+                            AudioSingleton.sharedInstance.playSound(audioName: "Beau Walker & Jurgance - Shine [FTUM Release]")
                             newsNode.eulerAngles.x = .pi / 2
                             planeNode.addChildNode(newsNode)
-                            
+                        }
+                    }
+                } else if imageAnchor.referenceImage.name == "News2" {
+                    if let newsScene = SCNScene(named: "art.scnassets/eevee.scn") {
+                        if let newsNode = newsScene.rootNode.childNodes.first {
+                            videoNode.pause()
+                            AudioSingleton.sharedInstance.playSound(audioName: "Polygon-Bring-It-Back-_NCS-Release_")
+                            newsNode.eulerAngles.x = .pi / 2
+                            planeNode.addChildNode(newsNode)
+                        }
+                    }
+                } else if imageAnchor.referenceImage.name == "News3" {
+                    if let newsScene = SCNScene(named: "art.scnassets/eevee.scn") {
+                        if let newsNode = newsScene.rootNode.childNodes.first {
+                            videoNode.pause()
+                            AudioSingleton.sharedInstance.playSound(audioName: "ATSMXN_-XTOM-Enemies-_NCS-Release_")
+                            newsNode.eulerAngles.x = .pi / 2
+                            planeNode.addChildNode(newsNode)
                         }
                     }
                 }
                 
             case .video:
+                
                 let videoScene = SKScene(size: CGSize(width: 1280, height: 720))
-              
                 
                 if imageAnchor.referenceImage.name == "News1" {
                     videoNode = SKVideoNode(fileNamed: "erickThohir.mp4")
+                    AudioSingleton.sharedInstance.stopSound()
+                    videoNode.play()
                 } else if imageAnchor.referenceImage.name == "News2" {
                     videoNode = SKVideoNode(fileNamed: "missUniverse.mp4")
+                    AudioSingleton.sharedInstance.stopSound()
+                    videoNode.play()
+                } else if imageAnchor.referenceImage.name == "News3" {
+                    videoNode = SKVideoNode(fileNamed: "brv.mp4")
+                    AudioSingleton.sharedInstance.stopSound()
+                    videoNode.play()
                 }
-                
                 videoNode.position = CGPoint(x: videoScene.size.width / 2, y: videoScene.size.height / 2)
                 videoNode.yScale = -1.0
                 videoScene.addChild(videoNode)
                 plane.firstMaterial?.diffuse.contents = videoScene
                 node.addChildNode(planeNode)
-                node.updateFocusIfNeeded()
+                
                 
             }
         }
-
         return node
     }
     
+    
     func renderer(_ renderer: SCNSceneRenderer, didUpdate node: SCNNode, for anchor: ARAnchor) {
         guard let imageAnchor = anchor as? ARImageAnchor else {return}
-        if imageAnchor.isTracked {
-            videoNode.play()
-        } else {
-            videoNode.pause()
+//        if imageAnchor.isTracked {
+//            videoNode.play()
+//        } else {
+//            videoNode.pause()
+//        }
+        
+        if node.isHidden {
+            if let imageAnchor = anchor as? ARImageAnchor {
+                videoNode.pause()
+                sceneView.session.remove(anchor: imageAnchor)
+            }
         }
+
     }
     
     
@@ -149,14 +186,12 @@ class ARViewController: UIViewController, ARSCNViewDelegate {
         
         if let imageToTrack = ARReferenceImage.referenceImages(inGroupNamed: "Newspaper", bundle: Bundle.main) {
             configuration.detectionImages = imageToTrack
-            configuration.maximumNumberOfTrackedImages = 2
+            configuration.maximumNumberOfTrackedImages = 1
             print("Images Successfully Added")
             
         }
         // Run the view's session
         sceneView.session.run(configuration)
-
-        
         setupViews()
     
     }
