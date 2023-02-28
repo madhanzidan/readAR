@@ -55,6 +55,10 @@ class HomeViewController: UIViewController {
         setupViews()
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        AudioSingleton.sharedInstance.stopSound()
+    }
+    
     @objc func startPressed() {
         let nextScreen = ARViewController()
         navigationController?.pushViewController(nextScreen, animated: true)
